@@ -1,0 +1,27 @@
+# Twitter Sentiment Analysis: Kamala Harris vs. Donald Trump
+
+This project performs sentiment analysis on tweets mentioning Kamala Harris and Donald Trump to compare public sentiment.
+
+## Features
+- Fetch live tweets using the Twitter API.
+- Clean and preprocess text data.
+- Perform sentiment analysis using VADER.
+- Visualize sentiment distribution and generate word clouds.
+
+## Requirements
+- Python 3.x
+- Libraries: Tweepy, Pandas, Matplotlib, Seaborn, WordCloud, NLTK
+
+## How to Run
+1. Clone this repository.
+2. Install the required libraries: `pip install -r requirements.txt`.
+3. Replace API keys in the script with your own Twitter API credentials.
+4. Run the script: `python twitter_sentiment_analysis.py`.
+
+## Outputs
+- Sentiment distribution bar charts.
+- Word clouds for positive tweets.
+- CSV files with cleaned tweets and sentiment labels.
+
+## Disclaimer
+This project uses publicly available data and is for educational purposes only.
